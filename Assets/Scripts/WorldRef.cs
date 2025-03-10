@@ -3,8 +3,7 @@ using UnityEngine;
 public class WorldRef : MonoBehaviour
 {
     private Camera _cam;
-
-    // Update is called once per frame
+    
     private void Start()
     {
         _cam = Camera.main;

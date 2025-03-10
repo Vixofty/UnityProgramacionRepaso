@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
 
     public float speed;
     public float maxSpeed = 20f;
-    // Update is called once per frame
     void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
